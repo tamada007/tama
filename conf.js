@@ -2,7 +2,7 @@ jsproxy_config({
   // 当前配置的版本（记录在日志中，用于排查问题）
   // 每次修改配置，该值需要增加，否则不会生效。
   // 默认每隔 5 分钟自动下载配置，若想立即验证，可通过隐私模式访问。
-  ver: '107',
+  ver: '108',
 
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
@@ -53,7 +53,8 @@ jsproxy_config({
         'a.007.workers.dev': 1,
         'a.hehe.workers.dev': 1,
         'a.lulu.workers.dev': 1,
-        'shrill-unit-8594.jsproxy.workers.dev': 1,
+        'b.jsproxy.workers.dev': 1,
+        "dome.tamada007.workers.dev": 1
       }
     }
   },
